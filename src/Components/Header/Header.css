@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
+*{
+    margin: 0;
+}
+
 .header{
   display: flex;
   align-items: center;
@@ -24,7 +28,7 @@
 }
 
 .header__left > h2 > span{
-    color: #30b7ec;
+    color: #EC7969;
 } 
 
 .header__right{
@@ -43,8 +47,8 @@
 
 .header__right > a > h4:hover{
     /*transform: scale(1.09);*/
-    background: #30b7ec;
-    color: white;
+    /*background: #30b7ec;*/
+    color: #EC7969;
     padding: 5px 20px;
     border-radius: 2px;
     letter-spacing: 1px;
